@@ -26,7 +26,7 @@ const Editor = () => {
 
       link.href = URL.createObjectURL(blob);
 
-      link.download = 'exported_html.html';
+      link.download = 'exported_unlayer_html.html';
 
       document.body.appendChild(link);
 
